@@ -1,0 +1,164 @@
+.app-layout {
+  min-height: 100vh;
+  max-width: 980px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  background: #ffffff;
+  border: 1px solid #d2d8d6;
+  box-shadow: 0 16px 45px rgba(20, 34, 35, 0.08);
+}
+
+.main-content {
+  text-align: left;
+  padding: 84px 56px 48px;
+}
+
+.cv-sidebar {
+  position: relative;
+  background: #f6f8f7;
+  border-right: 3px solid #000000;
+  padding: 84px 18px 48px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.ez {
+  position: static;
+  width: 90px;
+  margin-top: 14px;
+}
+
+.cv-sidebar::before {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  }
+
+.cv-sidebar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: 5px;
+  height: 100%;
+  background: transparent;
+}
+
+.sidebar-title {
+  margin: 0;
+  font-size: 22px;
+  color: #000000;
+  max-width: 280px;
+  padding: 0 6px 0 6px;
+  line-height: 1.22;
+  text-align: right;
+  letter-spacing: 0.11em;
+  font-weight: 700;
+  word-break: normal;
+  overflow-wrap: normal;
+  white-space: normal;
+}
+
+.sidebar-title-line {
+  display: block;
+  white-space: nowrap;
+
+}
+
+.sidebar-info {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
+}
+
+.linfo-title {
+  margin: 0;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  color: #000000;
+  text-align: right;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.linfo-line {
+  margin: 0;
+  font-size: 14px;
+  color: #000000;
+  text-align: right;
+}
+
+.trudov-staj-title {
+  margin-top: 30px;
+  margin-left: 130px;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  color: #000000;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.trudov-staj-line {
+  margin: 0;
+  font-size: 14px;
+  color: #000000;
+  text-align: right;
+  gap: 8px;
+}
+
+.obrazovanie-title {
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  color: #000000;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.obrazovanie-uno {
+  margin-top: -10px;
+  flex-direction: column;
+  gap: 8px;
+  text-align: right;
+  font-size: 14px;
+  color: #000000;
+}
+
+.obrazovanie-dos {
+  margin-top: 5px;
+  flex-direction: column;
+  gap: 8px;
+  text-align: right;
+  font-size: 14px;
+  color: #000000;
+}
+
+.obrazovanie-tres {
+  margin-top: 5px;
+  flex-direction: column;
+  gap: 8px;
+  text-align: right;
+  font-size: 14px;
+  color: #000000;
+}
+
+.ezici {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+  color: #000000;
+  text-align: right;
+  white-space: nowrap;
+}
